@@ -83,8 +83,8 @@ body {
 }
 
 .card-header {
-  background-color: var(--primary-color);
-  color: white;
+  background-color: #0d6efd;
+        color: white;
   border-radius: var(--border-radius) var(--border-radius) 0 0 !important;
   padding: 1.25rem;
 }
@@ -105,6 +105,19 @@ body {
   padding: 2rem;
 }
 
+.custom-card-header {
+    background: linear-gradient(135deg, #3a7bd5, #00d2ff);
+    color: white;
+    padding: 1rem;
+    border-bottom: 3px solid #2c5fb8;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .custom-card-header h4 {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin: 0;
+  }
 /* ===== Formularios ===== */
 .form-control {
   padding: 0.75rem 1rem;
